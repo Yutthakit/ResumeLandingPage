@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container{
-    max-width: 750px;
+    max-width: 750;
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -14,12 +14,13 @@
 }
 /* ------------------------------------------Container */
 .grid-container{
+    width: 100%;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     grid-gap: 1rem;
 
 }
-.grid-container img{
+.grid-img img{
     width: 100%;
 }
 
@@ -94,7 +95,7 @@ footer .container {
 .grid-contact{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 0 250px;
+    margin: 0 200px;
     text-align: center;
     padding: 10px;
 }
@@ -102,4 +103,43 @@ footer .container {
     font-size: 16px;
     color: black
 }
-/* font-family: 'Open Sans', sans-serif; */
+
+@media only screen and (max-width:480px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+    .grid-container img{
+        width: 30%;
+    }
+    .fullname{ 
+        font-size: 24px;
+        font-family: 'Open Sans', sans-serif;
+        inline-size: 1
+        .1;
+        color:  rgb(25, 78, 80);
+    }
+    .funame {
+        font-size: 22px;
+        font-family: 'Open Sans', sans-serif;
+        inline-size: 1.1;
+        color: rgb(13, 95, 172);
+        border: none;
+        font-weight: 1000;
+        background: cornsilk;
+    }
+    .nickname{
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        inline-size: 1.1;
+        color:  rgb(25, 78, 80);
+    }
+    .grid-contact{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0 100px;
+        text-align: center;
+        padding: 10px;
+    }
+}
