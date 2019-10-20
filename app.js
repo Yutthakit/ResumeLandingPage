@@ -69,3 +69,11 @@ function updateVal(currentEle, value) {
         $(currentEle).html($(".thVal").val().trim());
     });
 }
+
+function changebg(obj){
+    obj.style.backgroundColor="cornsilk"
+}
+function changebg2(obj){
+
+    obj.style.backgroundColor="SpringGreen"
+}
