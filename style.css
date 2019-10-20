@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 750px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 5px;
+    background: cornsilk;
+}
+/* ------------------------------------------Container */
+.grid-container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-gap: 1rem;
+
+}
+.grid-container img{
+    width: 100%;
+}
+
+.grid-resume   {
+    display: grid;
+    grid-template-rows: 1fr auto auto auto auto auto auto;
+}
+/* ------------------------------------------Grid End */
+.fullname{ 
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    inline-size: 1.1;
+    color:  rgb(25, 78, 80);
+}
+.funame {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    inline-size: 1.1;
+    color: rgb(13, 95, 172);
+    border: none;
+    font-weight: 1000;
+    background: cornsilk;
+}
+.nickname{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    inline-size: 1.1;
+    color:  rgb(25, 78, 80);
+}
+.div-dept {
+
+    border-bottom: 3px solid gray;
+}
+.dept{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    inline-size: 1.1;
+    color: rgb(13, 95, 172);
+    margin-bottom: 10px;
+}
+p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: rgb(25, 78, 80);
+}
+span {
+    text-transform: none;
+    color: rgb(13, 95, 172);
+}
+.skill{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    inline-size: 1.1;
+    color: rgb(13, 95, 172);
+    border: none;
+    background: cornsilk;
+}
+ul{
+    text-indent: 25px;
+}
+li{
+    list-style-type: circle;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(13, 95, 172);
+}
+footer .container {
+    padding: 0;
+    border-top:1px solid gray;
+}
+.grid-contact{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 250px;
+    text-align: center;
+    padding: 10px;
+}
+.grid-contact .fa {
+    font-size: 16px;
+    color: black
+}
+/* font-family: 'Open Sans', sans-serif; */
